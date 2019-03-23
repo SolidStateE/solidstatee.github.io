@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tech SEU</title>
-    <link>https://techseu.github.io/posts/</link>
-    <description>Recent content in Posts on Tech SEU</description>
+    <title>Logs on Tech SEU</title>
+    <link>https://techseu.github.io/tags/logs/</link>
+    <description>Recent content in Logs on Tech SEU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://techseu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techseu.github.io/tags/logs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
