@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tech SEU</title>
-    <link>https://techseu.github.io/posts/</link>
-    <description>Recent content in Posts on Tech SEU</description>
+    <title>系统问题 on Tech SEU</title>
+    <link>https://techseu.github.io/categories/%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98/</link>
+    <description>Recent content in 系统问题 on Tech SEU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://techseu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techseu.github.io/categories/%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -32,15 +32,6 @@ business, 商业版: 面向商务、企业市场，有教育版，无家庭版,�
 注意事项（重要） 你会注意到在文件名下面还有一串字符 SHA1. 下面来解释它：
 SHA1，哈希值。哈希是是一种密码散列函数，主要适用于数字签名标准里面定义的数字签名算法。
 对于长度小于2^64位的消息，SHA1会产生一个160位的消息摘要。当接收到消息的时候，这个消息摘要可以用来验证数据的完整性。</description>
-    </item>
-    
-    <item>
-      <title>Constructing...</title>
-      <link>https://techseu.github.io/constructing/</link>
-      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://techseu.github.io/constructing/</guid>
-      <description>即将上线，敬请期待</description>
     </item>
     
   </channel>
