@@ -1,6 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+      <loc>https://techseu.github.io/categories/</loc>
+      
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://techseu.github.io/msdn/</loc>
+      
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://techseu.github.io/posts/</loc>
+      
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://techseu.github.io/tags/</loc>
+      
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://techseu.github.io/</loc>
+      
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://techseu.github.io/tags/windows/</loc>
+      
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://techseu.github.io/categories/%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98/</loc>
+      
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
   
     <url>
       <loc>https://techseu.github.io/constructing/</loc>
@@ -18,26 +99,6 @@
       <lastmod>2019-03-23T00:00:00+00:00</lastmod>
       
       
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://techseu.github.io/about/</loc>
-      
-      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://techseu.github.io/categories/</loc>
-      
-      
-      
-      <priority>0</priority>
       
       
     </url>
@@ -77,42 +138,6 @@
     </url>
   
     <url>
-      <loc>https://techseu.github.io/posts/</loc>
-      
-      <lastmod>2019-03-23T00:00:00+00:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://techseu.github.io/tags/</loc>
-      
-      <lastmod>2019-03-23T00:00:00+00:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://techseu.github.io/</loc>
-      
-      <lastmod>2019-03-23T00:00:00+00:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
       <loc>https://techseu.github.io/categories/%E4%B8%9C%E5%A4%A7%E6%9C%AC%E6%9C%AC/</loc>
       
       <lastmod>2019-03-23T00:00:00+00:00</lastmod>
@@ -120,6 +145,16 @@
       
       
       <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://techseu.github.io/about/</loc>
+      
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+      
+      
       
       
     </url>
