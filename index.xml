@@ -91,6 +91,100 @@
     </item>
     
     <item>
+      <title>系统重装教程</title>
+      <link>https://techseu.github.io/system-reinstall/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://techseu.github.io/system-reinstall/</guid>
+      <description>
+
+&lt;p&gt;这里主要讲4种系统重装方法&lt;/p&gt;
+
+&lt;p&gt;当你经过多方探究找不到解决问题的途径时，重装往往是一个简单易行的方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意备份重要数据！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;说明：如果不在安装向导中格式化原系统盘，那么Windows将自动把老的Windows打包放入C盘的&lt;code&gt;Windows.old&lt;/code&gt;文件夹内，你可以直接从中取文件。备份数据其实是以防万一。（Windows.old文件夹可以稍后从属性-磁盘清理中删除）&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;系统重置法&#34;&gt;系统重置法&lt;/h2&gt;
+
+&lt;p&gt;在小娜搜索 &lt;code&gt;重置此电脑&lt;/code&gt; ，点击开始。你可以选择保留个人文件或者一切重新开始。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/05/12/5cd7a28629ee9.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意，此操作依赖恢复分区（专门划出用来存放系统恢复镜像的地方），电脑出厂时一般会有此分区，若没有或丢失，则此方案将不可用。
+·其实这不是严格意义上的系统重装，但能够解决问题。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;镜像覆盖法&#34;&gt;镜像覆盖法&lt;/h2&gt;
+
+&lt;p&gt;首先，下载镜像，&lt;a href=&#34;https://techseu.github.io/msdn/&#34; title=&#34;MSDN itellyou&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;详见此文章&lt;/a&gt;&lt;br /&gt;
+你得到正确的文件后，Windows 8 及以上可以直接双击.iso文件（或者右键挂载），你也可以解压它，运行&lt;code&gt;setup.exe&lt;/code&gt;即可开始安装。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;media-creation-tool-安装法&#34;&gt;Media Creation Tool 安装法&lt;/h2&gt;
+
+&lt;p&gt;官方、且易行的方案，需要至少为8G的U盘。
+&lt;a href=&#34;https://www.microsoft.com/zh-cn/software-download/windows10&#34; title=&#34;官网下载地址&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;官网下载地址&lt;/a&gt;
+&lt;img src=&#34;https://i.loli.net/2019/05/12/5cd7a2863d5c7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;在这里下载工具，运行，同意协议，你可以选择升级系统，但我们这里讲的是重装，故选择第二项。&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/05/12/5cd7a2861fd7e.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;等待其联网下载并准备你的安装介质。&lt;/p&gt;
+
+&lt;p&gt;当然你可以直接使用下载好的镜像直接刷入u盘（借助UltraISO 、 Rufus 等），效果是一样的。&lt;/p&gt;
+
+&lt;p&gt;接着重启并从&lt;a href=&#34;https://jingyan.baidu.com/article/0aa22375184b1f88cc0d64ad.html&#34; title=&#34;U盘启动&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;U盘启动&lt;/a&gt;，就到了安装界面。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;从pe系统安装&#34;&gt;从PE系统安装&lt;/h2&gt;
+
+&lt;p&gt;你需要：
+1.制作PE启动盘；2.下载系统镜像（详见镜像覆盖法下的链接）&lt;/p&gt;
+
+&lt;p&gt;这里主要讲讲如何制作PE启动盘。&lt;/p&gt;
+
+&lt;p&gt;这里推荐微PE，&lt;a href=&#34;http://www.wepe.com.cn/&#34; title=&#34;Official Site&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;下载地址&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;下载后解压，打开工具，插入U盘，选择右下角三个图标中的第一个安装PE到U盘。将待写入U盘设为你插入的U盘,开始制作即可。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;你已经完全掌握了!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在制作完PE后，从U盘启动（详见上一安装法）
+找到你的iso镜像，方法类似“镜像覆盖法”。&lt;/p&gt;
+
+&lt;p&gt;注：在WinPE环境下你仍可以使用其他安装器安装系统， 其原理是镜像部署。各种安装器大同小异且操作简单，故在此不赘述。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;nt6-硬盘安装法&#34;&gt;NT6 硬盘安装法&lt;/h2&gt;
+
+&lt;p&gt;此方案借助第三方工具，适用于手头没有U盘的情况。
+在此不赘述，详见&lt;a href=&#34;https://www.xitongtiandi.com/wenzhang/10285.html&#34; title=&#34;此外部网站&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;此外部网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;系统安装后需要激活，若原有激活许可，安装相同版本系统后自动联网激活；&lt;br /&gt;
+若没有，可用激活工具激活或淘宝买密钥激活（较经济的方法）。&lt;/li&gt;
+&lt;li&gt;关于激活工具，大致有两类：KMS和数字证书激活（对原理感兴趣可以自行搜索）。&lt;/li&gt;
+&lt;li&gt;请尽量支持正版！&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Constructing...</title>
       <link>https://techseu.github.io/constructing/</link>
       <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
