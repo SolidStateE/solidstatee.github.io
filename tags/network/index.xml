@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network on Tech SEU</title>
+    <link>https://techseu.github.io/tags/network/</link>
+    <description>Recent content in Network on Tech SEU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://techseu.github.io/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>常见网络问题</title>
+      <link>https://techseu.github.io/network-issues/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://techseu.github.io/network-issues/</guid>
+      <description>此篇文章整合了常见网络问题的解决方案，供同学进行自查。
+本文长期更新，若有问题请留言或在东大本本答疑群中提出
+首先在此强调，重启能解决的问题不是问题 :-)
+1.校园网无法登陆 手动访问认证页面：w.seu.edu.cn
+注：若遇证书错误或网站不安全等提示，请选择继续访问
+在访问登陆界面时请检查代理/VPN设置或暂时关闭，以防无法解析至登录页面
+遇到问题？请按如下步骤解决：
+ipconfig命令 1.Windows键+R运行，输入cmd，回车。
+2.键入以下两条命令，分别回车
+ipconfig /release
+ipconfig /renew
+3.稍等片刻后重启浏览器或重启系统后连接，若问题仍未解决，请往下看。
+ 重置winsock
+右键左下角的Windows徽标（或者Win+X)，在菜单中找到命令提示符-管理员,在弹出的用户账户警告框上选是，输入以下命令并回车：
+netsh winsock reset
+  若仍未解决，翻到最后~
+2.代理服务器没有响应/Proxy error或相关提示  请检查VPN或代理设置是否正确，不正确的配置或者未正常退出会导致此类问题。
+常见错误由校园VPN所采用的EasyConnect客户端所致，请启动客户端，登陆后再退出，重启系统。  3.奇怪的问题  检查有没有网卡的物理开关（常见于Fn功能键区）
+ 检查是否安装了WiFi共享软件，若有，卸载它。
+ 右键左下角的Windows徽标（或者Win+X)，在菜单中找到设备管理器 , 在网络适配器或者其他设备中查找你的网卡，右键-更新驱动。
+ 若只有特定或全部网页打不开而基于客户端的网络连接通畅（如QQ聊天），请排查DNS设置。
+推荐public DNS：
+Google DNS 8.8.8.8 8.8.4.4
+Open DNS 208.67.222.222 208.67.220.220
+  4. 找不到WiFi，网卡驱动丢失或损坏 灵魂发问：试过重启了吗？
+试过了，请往下看：
+1.在线安装驱动
+- 若有线连接可用，可先连接有线；也可以连接Android手机，使用USB网络共享。
+在Windows徽标上右键或者Win+X打开超级菜单，进入设备管理器。
+展开网络适配器目录，找到黄色叹号的设备，右键更新驱动程序。
+2.离线安装驱动
+可从其他有互联网连接的电脑下载好*驱动精灵万能网卡版*或其他离线驱动安装包进行安装。
+0.网络重置 Win+s键搜索或者打开小娜搜索网络重置
+一键操作 （重置就完事了)</description>
+    </item>
+    
+  </channel>
+</rss>
