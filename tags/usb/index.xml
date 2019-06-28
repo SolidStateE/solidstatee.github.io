@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>USB on Tech SEU</title>
+    <link>https://techseu.github.io/tags/usb/</link>
+    <description>Recent content in USB on Tech SEU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://techseu.github.io/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于U盘病毒</title>
+      <link>https://techseu.github.io/udisk-virus/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://techseu.github.io/udisk-virus/</guid>
+      <description> 特征： 隐藏U盘下的文件夹，并替换为伪装成文件夹的病毒可执行程序 (.exe)。
+其实很好察觉： 文件夹图标变了，且当你打开文件夹时是作为新窗口打开的。
+解决方案： Step1: 全盘杀毒（因为病毒会复制到硬盘的其他分区）
+Step2:  很可能杀毒软件只是清理了病毒“文件夹”，并没有将隐藏的文件夹恢复，这时候需要手动恢复。
+ 被隐藏的文件夹除了添加“隐藏”属性外，还往往增加了“系统”属性，这样，你仅仅勾选了显示文件夹这个文件夹选项之后，仍然看不见被隐藏的文件夹。  我们可以借助attrib命令更改属性：
+attrib -r -h -s /s /d
+解释：-表示取消该属性；r为只读(read only)，h为隐藏(hide)，s为系统属性(system); /S为 处理当前文件夹及其所有子文件夹中的匹配文件；/D为 也处理文件夹。
+操作步骤：CD命令进入U盘根目录，执行该命令；或将这条命令存为 .bat文件（提供下载），将其放到U盘根目录双击运行即可。 （操作结束后你可能需要刷新一下）
+一些唠叨：  关注可移动设备（U盘等）的安全，尽量不要插入到不被信任的设备中去（例如打印店的电脑）。 做好U盘的病毒防护（常见的杀软都能胜任） 做好备份。不要把重要文件仅仅存放于U盘中，你应该在其他位置有他们的拷贝。 请尽量在文件夹选项中勾选“查看已知类型文件的扩展名”，这样你看到的病毒伪装文件夹都有.exe后缀。 看仔细。图标都不一样好嘛… 多留意。往往点击病毒文件夹后，会在新窗口打开你想要的文件夹。这时你就得警觉了。 注意版权/知识产权。丑恶的学校打印店可能会未经许可复制你的U盘文档，所以尽量不要在打印店打印课件等不便或不能公开的文档。  </description>
+    </item>
+    
+  </channel>
+</rss>

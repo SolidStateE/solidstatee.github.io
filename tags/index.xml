@@ -5,16 +5,34 @@
     <link>https://techseu.github.io/tags/</link>
     <description>Recent content in Tags on Tech SEU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://techseu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Network</title>
+      <link>https://techseu.github.io/tags/network/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://techseu.github.io/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>USB</title>
+      <link>https://techseu.github.io/tags/usb/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://techseu.github.io/tags/usb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Windows</title>
       <link>https://techseu.github.io/tags/windows/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://techseu.github.io/tags/windows/</guid>
       <description></description>
