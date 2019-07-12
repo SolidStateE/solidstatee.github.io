@@ -9,7 +9,7 @@
   
   
   
-  <link rel="prev" href="https://techseu.github.io/constructing/" />
+  
   <link rel="next" href="https://techseu.github.io/msdn/" />
   <link rel="canonical" href="https://techseu.github.io/system-reinstall/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -41,12 +41,35 @@
     "@type" : "BlogPosting",
     "mainEntityOfPage": {
          "@type": "WebPage",
-         "@id": "https:\/\/techseu.github.io"
+         "@id": "https://techseu.github.io"
     },
     "articleSection" : "posts",
     "name" : "系统重装教程",
     "headline" : "系统重装教程",
-    "description" : " 这里讲讲几种系统重装方法~\n当你经过多方探究找不到解决问题的途径时，重装往往是一个简单易行的方案。\n注意备份重要数据！\n说明：如果不在安装向导中格式化原系统盘，那么Windows将自动把老的Windows打包放入C盘的Windows.old文件夹内，你可以直接从中取文件。但你永远无法预知最后会发生什么，所以一定要备份数据。（Windows.old文件夹可以稍后从 属性-磁盘清理-清理系统文件 中删除）\n系统重置 在小娜搜索 重置此电脑 ，点击开始。你可以选择保留个人文件或者一切重新开始。\n注意，此操作依赖恢复分区（专门划出用来存放系统恢复镜像的地方），电脑出厂时一般会有此分区，若没有或丢失，则此方案将不可用。 ·其实这不是严格意义上的系统重装，但能够解决部分问题。\n通过镜像安装 首先，下载镜像，参见此文章\n你得到正确的文件后，Windows 8 及以上可以直接双击.iso文件（或者右键挂载），你也可以解压它，运行setup.exe即可开始安装。\n 选择升级，则可保留你的程序与文件（少数不再兼容的软件除外），相当于覆盖安装。\n 选择自定义，你可以先调整分区，再执行安装。\n  注：\x26rdquo;升级\x26rdquo;要求你当前运行完整的Windows，而在PE环境或可引导存储介质下只能选择\x26rdquo;自定义\x26rdquo;。\nMedia Creation Tool 安装法 官方、且易行的方案，需要至少为8G的U盘。 官网下载地址 在这里下载工具，运行，同意协议，你可以选择升级系统，但我们这里讲的是重装，故选择第二项。\n等待其联网下载并准备你的安装介质。\n当然你可以直接使用下载好的镜像直接刷入u盘（借助UltraISO 、 Rufus 等），效果是一样的。\n接着重启并从U盘启动，就到了安装界面。\n从PE系统安装 你需要： 1.制作PE启动盘；2.下载系统镜像（详见镜像覆盖法下的链接）\n这里主要讲讲如何制作PE启动盘。\n这里只推荐 微PE（无利益相关，若有更好选择欢迎在评论区反馈）\n下载后解压，打开工具，插入U盘，选择右下角三个图标中的第一个安装PE到U盘。将待写入U盘设为你插入的U盘,开始制作即可。\n 你已经完全掌握了!  在制作完PE后，从U盘启动， 找到你的iso镜像，方法类似“镜像覆盖法”。\n注：在WinPE环境下你仍可以使用其他安装器安装系统， 其原理是镜像部署。各种安装器大同小异且操作简单，故在此不赘述。\nNT6 硬盘安装法 此方案借助第三方工具，适用于手头没有U盘的情况。 在此不赘述，详见此外部网站\n\x26nbsp;\n 系统安装后需要激活，若原有激活许可，安装相同版本系统后自动联网激活；若没有，可用激活工具激活 关于激活工具，大致有两类：KMS和数字权利激活（对原理感兴趣可以自行搜索）。 请尽量支持正版！  ",
+    "description" : " 这里讲讲几种系统重装方法~
+当你经过多方探究找不到解决问题的途径时，重装往往是一个简单易行的方案。
+注意备份重要数据！
+说明：如果不在安装向导中格式化原系统盘，那么Windows将自动把老的Windows打包放入C盘的Windows.old文件夹内，你可以直接从中取文件。但你永远无法预知最后会发生什么，所以一定要备份数据。（Windows.old文件夹可以稍后从 属性-磁盘清理-清理系统文件 中删除）
+系统重置 在小娜搜索 重置此电脑 ，点击开始。你可以选择保留个人文件或者一切重新开始。
+注意，此操作依赖恢复分区（专门划出用来存放系统恢复镜像的地方），电脑出厂时一般会有此分区，若没有或丢失，则此方案将不可用。 ·其实这不是严格意义上的系统重装，但能够解决部分问题。
+通过镜像安装 首先，下载镜像，参见此文章
+你得到正确的文件后，Windows 8 及以上可以直接双击.iso文件（或者右键挂载），你也可以解压它，运行setup.exe即可开始安装。
+ 选择升级，则可保留你的程序与文件（少数不再兼容的软件除外），相当于覆盖安装。
+ 选择自定义，你可以先调整分区，再执行安装。
+  注：&rdquo;升级&rdquo;要求你当前运行完整的Windows，而在PE环境或可引导存储介质下只能选择&rdquo;自定义&rdquo;。
+Media Creation Tool 安装法 官方、且易行的方案，需要至少为8G的U盘。 官网下载地址 在这里下载工具，运行，同意协议，你可以选择升级系统，但我们这里讲的是重装，故选择第二项。
+等待其联网下载并准备你的安装介质。
+当然你可以直接使用下载好的镜像直接刷入u盘（借助UltraISO 、 Rufus 等），效果是一样的。
+接着重启并从U盘启动，就到了安装界面。
+从PE系统安装 你需要： 1.制作PE启动盘；2.下载系统镜像（详见镜像覆盖法下的链接）
+这里主要讲讲如何制作PE启动盘。
+这里只推荐 微PE（无利益相关，若有更好选择欢迎在评论区反馈）
+下载后解压，打开工具，插入U盘，选择右下角三个图标中的第一个安装PE到U盘。将待写入U盘设为你插入的U盘,开始制作即可。
+ 你已经完全掌握了!  在制作完PE后，从U盘启动， 找到你的iso镜像，方法类似“镜像覆盖法”。
+注：在WinPE环境下你仍可以使用其他安装器安装系统， 其原理是镜像部署。各种安装器大同小异且操作简单，故在此不赘述。
+NT6 硬盘安装法 此方案借助第三方工具，适用于手头没有U盘的情况。 在此不赘述，详见此外部网站
+&nbsp;
+ 系统安装后需要激活，若原有激活许可，安装相同版本系统后自动联网激活；若没有，可用激活工具激活 关于激活工具，大致有两类：KMS和数字权利激活（对原理感兴趣可以自行搜索）。 请尽量支持正版！  ",
     "inLanguage" : "zh-cn",
     "author" : "Escape",
     "creator" : "Escape",
@@ -54,9 +77,9 @@
     "accountablePerson" : "Escape",
     "copyrightHolder" : "Escape",
     "copyrightYear" : "2019",
-    "datePublished": "2019-05-01 00:00:00 \x2b0000 UTC",
-    "dateModified" : "2019-05-01 00:00:00 \x2b0000 UTC",
-    "url" : "https:\/\/techseu.github.io\/system-reinstall\/",
+    "datePublished": "2019-05-01 00:00:00 &#43;0000 UTC",
+    "dateModified" : "2019-05-01 00:00:00 &#43;0000 UTC",
+    "url" : "https://techseu.github.io/system-reinstall/",
     "wordCount" : "53",
     "keywords" : [ "Windows", "Tech SEU"]
 }
@@ -83,8 +106,6 @@
                 
                 <a class="menu-item" href="/tags/" title="">Tags</a>
                 
-                <a class="menu-item" href="/members/" title="">Members</a>
-                
                 <a class="menu-item" href="/about/" title="About Tech SEU">About Tech SEU</a>
                 
         </div>
@@ -107,8 +128,6 @@
                 <a class="menu-item" href="/categories/" title="">Categories</a>
                 
                 <a class="menu-item" href="/tags/" title="">Tags</a>
-                
-                <a class="menu-item" href="/members/" title="">Members</a>
                 
                 <a class="menu-item" href="/about/" title="About Tech SEU">About Tech SEU</a>
                 
@@ -285,8 +304,6 @@
     </div>
 
     <div class="post-nav">
-        
-        <a href="https://techseu.github.io/constructing/" class="prev" rel="prev" title="Constructing..."><i class="iconfont icon-left"></i>&nbsp;Constructing...</a>
          
         
         <a href="https://techseu.github.io/msdn/" class="next" rel="next" title="MSDN 镜像下载站">MSDN 镜像下载站&nbsp;<i class="iconfont icon-right"></i></a>
@@ -327,7 +344,7 @@
     <div class="copyright">
         &copy;
         
-        <span itemprop="copyrightYear">2019 - 2019</span>
+        <span itemprop="copyrightYear">2015 - 2019</span>
         
         <span class="with-love">
     	 <i class="iconfont icon-love"></i> 

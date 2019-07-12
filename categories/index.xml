@@ -6,10 +6,18 @@
     <description>Recent content in Categories on Tech SEU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://techseu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>科普文　</title>
+      <link>https://techseu.github.io/categories/%E7%A7%91%E6%99%AE%E6%96%87-/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://techseu.github.io/categories/%E7%A7%91%E6%99%AE%E6%96%87-/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>系统问题</title>
@@ -17,24 +25,6 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://techseu.github.io/categories/%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Membership</title>
-      <link>https://techseu.github.io/categories/membership/</link>
-      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://techseu.github.io/categories/membership/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>东大本本</title>
-      <link>https://techseu.github.io/categories/%E4%B8%9C%E5%A4%A7%E6%9C%AC%E6%9C%AC/</link>
-      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://techseu.github.io/categories/%E4%B8%9C%E5%A4%A7%E6%9C%AC%E6%9C%AC/</guid>
       <description></description>
     </item>
     
