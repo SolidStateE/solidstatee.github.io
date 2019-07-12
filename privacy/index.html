@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://techseu.github.io/network-issues/" />
-  <link rel="next" href="https://techseu.github.io/privacy/" />
-  <link rel="canonical" href="https://techseu.github.io/udisk-virus/" />
+  <link rel="prev" href="https://techseu.github.io/udisk-virus/" />
+  
+  <link rel="canonical" href="https://techseu.github.io/privacy/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           关于U盘病毒 | Tech SEU
+           聊聊隐私　 | Tech SEU
        
   </title>
-  <meta name="title" content="关于U盘病毒 | Tech SEU">
+  <meta name="title" content="聊聊隐私　 | Tech SEU">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,17 +44,20 @@
          "@id": "https://techseu.github.io"
     },
     "articleSection" : "posts",
-    "name" : "关于U盘病毒",
-    "headline" : "关于U盘病毒",
-    "description" : " 特征： 隐藏U盘下的文件夹，并替换为伪装成文件夹的病毒可执行程序 (.exe)。
-其实很好察觉： 文件夹图标变了，且当你打开文件夹时是作为新窗口打开的。
-解决方案： Step1: 全盘杀毒（因为病毒会复制到硬盘的其他分区）
-Step2:  很可能杀毒软件只是清理了病毒“文件夹”，并没有将隐藏的文件夹恢复，这时候需要手动恢复。
- 被隐藏的文件夹除了添加“隐藏”属性外，还往往增加了“系统”属性，这样，你仅仅勾选了显示文件夹这个文件夹选项之后，仍然看不见被隐藏的文件夹。  我们可以借助attrib命令更改属性：
-attrib -r -h -s /s /d
-解释：-表示取消该属性；r为只读(read only)，h为隐藏(hide)，s为系统属性(system); /S为 处理当前文件夹及其所有子文件夹中的匹配文件；/D为 也处理文件夹。
-操作步骤：CD命令进入U盘根目录，执行该命令；或将这条命令存为 .bat文件（提供下载），将其放到U盘根目录双击运行即可。 （操作结束后你可能需要刷新一下）
-一些唠叨：  关注可移动设备（U盘等）的安全，尽量不要插入到不被信任的设备中去（例如打印店的电脑）。 做好U盘的病毒防护（常见的杀软都能胜任） 做好备份。不要把重要文件仅仅存放于U盘中，你应该在其他位置有他们的拷贝。 请尽量在文件夹选项中勾选“查看已知类型文件的扩展名”，这样你看到的病毒伪装文件夹都有.exe后缀。 看仔细。图标都不一样好嘛… 多留意。往往点击病毒文件夹后，会在新窗口打开你想要的文件夹。这时你就得警觉了。 注意版权/知识产权。丑恶的学校打印店可能会未经许可复制你的U盘文档，所以尽量不要在打印店打印课件等不便或不能公开的文档。  ",
+    "name" : "聊聊隐私　",
+    "headline" : "聊聊隐私　",
+    "description" : "在互联网上，没人知道你是一条狗
+ 
+这是一句互联网上的常用语，它因《纽约客》1993年7月5日刊登的一则由彼得·施泰纳（Peter Steiner）创作的漫画标题而变得流行。这则漫画中有两条狗：一条坐在计算机前的一张椅子上，与坐在地板上的另一条狗说出了漫画的标题：“在互联网上，没人知道你是一条狗”。
+时至2000年，这一漫画是《纽约客》中被重印最多的一则漫画。这则漫画一开始没有吸引太多的注意，但后来却有了它自己的“生命”。这则漫画体现了一种对互联网的理解，强调用户能够以一种不透露个人信息的方式来发送或接受信息的能力。
+互联网的匿名性给了我们自由，也产生了许多负面的社会影响，隐私泄露即为其一。本文将给出一些资料引起读者对个人隐私的重视，并给出一些保护自己的建议。
+推荐这个GitHUb仓库：Digital-Privacy - 一个关于数字隐私搜集、保护、清理集一体的方案 
+该仓库集合了*平台管控设置、邮箱/信息/号码、查隐秘性、定位、保护手段*等资源，值得一看。
+推荐这几篇文章：
+隐私大爆炸 - 你得学几招保护自己
+用户隐私早沦陷了
+浅谈互联网隐私安全
+个人隐私绝非儿戏，若人人漠视，芸芸网民将任由权力与资本鱼肉；重视个人隐私，保护自身的同时也是为健康的互联网环境献微薄之力。",
     "inLanguage" : "zh-cn",
     "author" : "Escape",
     "creator" : "Escape",
@@ -62,11 +65,11 @@ attrib -r -h -s /s /d
     "accountablePerson" : "Escape",
     "copyrightHolder" : "Escape",
     "copyrightYear" : "2019",
-    "datePublished": "2019-06-28 00:00:00 &#43;0000 UTC",
-    "dateModified" : "2019-06-28 00:00:00 &#43;0000 UTC",
-    "url" : "https://techseu.github.io/udisk-virus/",
-    "wordCount" : "34",
-    "keywords" : [ "USB", "Tech SEU"]
+    "datePublished": "2019-07-12 00:00:00 &#43;0000 UTC",
+    "dateModified" : "2019-07-12 00:00:00 &#43;0000 UTC",
+    "url" : "https://techseu.github.io/privacy/",
+    "wordCount" : "16",
+    "keywords" : [ "privacy", "Tech SEU"]
 }
 </script>
 
@@ -124,16 +127,16 @@ attrib -r -h -s /s /d
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">关于U盘病毒</h1>
+        <h1 class="post-title" itemprop="name headline">聊聊隐私　</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://techseu.github.io" rel="author">Escape</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-06-28 itemprop="datePublished">June 28, 2019</time>
+                on <time datetime=2019-07-12 itemprop="datePublished">July 12, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://techseu.github.io/categories/%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98/"> 系统问题 </a>
+                        <a href="https://techseu.github.io/categories/%E7%A7%91%E6%99%AE%E6%96%87-/"> 科普文　 </a>
                         
                 </span>
         </div>
@@ -141,6 +144,8 @@ attrib -r -h -s /s /d
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -154,45 +159,27 @@ attrib -r -h -s /s /d
           
           
 
-          
+          <blockquote>
+<p>在互联网上，没人知道你是一条狗</p>
+</blockquote>
 
-<h3 id="特征">特征：</h3>
+<p><center><img src="https://i.loli.net/2019/07/12/5d283b617ce0229862.jpg" /></center></p>
 
-<p>隐藏U盘下的文件夹，并替换为伪装成文件夹的病毒可执行程序 (.exe)。<br />
-其实很好察觉： 文件夹图标变了，且当你打开文件夹时是作为新窗口打开的。</p>
+<p>这是一句互联网上的常用语，它因《纽约客》1993年7月5日刊登的一则由彼得·施泰纳（Peter Steiner）创作的漫画标题而变得流行。这则漫画中有两条狗：一条坐在计算机前的一张椅子上，与坐在地板上的另一条狗说出了漫画的标题：“在互联网上，没人知道你是一条狗”。<br />
+时至2000年，这一漫画是《纽约客》中被重印最多的一则漫画。这则漫画一开始没有吸引太多的注意，但后来却有了它自己的“生命”。这则漫画体现了一种对互联网的理解，强调用户能够以一种不透露个人信息的方式来发送或接受信息的能力。</p>
 
-<h3 id="解决方案">解决方案：</h3>
+<p>互联网的匿名性给了我们自由，也产生了许多负面的社会影响，隐私泄露即为其一。本文将给出一些资料引起读者对个人隐私的重视，并给出一些保护自己的建议。</p>
 
-<h4 id="step1">Step1:</h4>
+<p>推荐这个GitHUb仓库：<a href="https://github.com/No-Github/Digital-Privacy" rel="nofollow noreferrer" target="_blank">Digital-Privacy - 一个关于数字隐私搜集、保护、清理集一体的方案 </a><br />
+该仓库集合了*平台管控设置、邮箱/信息/号码、查隐秘性、定位、保护手段*等资源，值得一看。<br />
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/07/12/5d283d8312dde47951.png" alt="" class="lazyload"><figcaption class="image-caption"></figcaption></figure></p>
 
-<p>全盘杀毒（因为病毒会复制到硬盘的其他分区）</p>
+<p>推荐这几篇文章：<br />
+<a href="https://shimo.im/docs/Fn6MCwyBjO4agBjb/" rel="nofollow noreferrer" target="_blank">隐私大爆炸 - 你得学几招保护自己</a><br />
+<a href="http://daily.zhihu.com/story/3033743" rel="nofollow noreferrer" target="_blank">用户隐私早沦陷了</a><br />
+<a href="https://www.freebuf.com/articles/neopoints/111299.html" rel="nofollow noreferrer" target="_blank">浅谈互联网隐私安全</a></p>
 
-<h4 id="step2">Step2:</h4>
-
-<ul>
-<li>很可能杀毒软件只是清理了病毒“文件夹”，并没有将隐藏的文件夹恢复，这时候需要手动恢复。<br /></li>
-<li>被隐藏的文件夹除了添加“隐藏”属性外，还往往增加了“系统”属性，这样，你仅仅勾选了显示文件夹这个文件夹选项之后，仍然看不见被隐藏的文件夹。</li>
-</ul>
-
-<p>我们可以借助attrib命令更改属性：<br />
-<code>attrib -r -h -s /s /d</code><br />
-<strong>解释</strong>：-表示取消该属性；r为只读(read only)，h为隐藏(hide)，s为系统属性(system); /S为 处理当前文件夹及其所有子文件夹中的匹配文件；/D为 也处理文件夹。<br />
-<strong>操作步骤</strong>：CD命令进入U盘根目录，执行该命令；或将这条命令存为 .bat文件（<a href="https://www.lanzous.com/i4r96pg" rel="nofollow noreferrer" target="_blank">提供下载</a>），将其放到U盘根目录双击运行即可。
-（操作结束后你可能需要刷新一下）</p>
-
-<hr />
-
-<h2 id="一些唠叨">一些唠叨：</h2>
-
-<ol>
-<li>关注可移动设备（U盘等）的安全，尽量不要插入到不被信任的设备中去（例如打印店的电脑）。</li>
-<li>做好U盘的病毒防护（常见的杀软都能胜任）</li>
-<li>做好备份。不要把重要文件仅仅存放于U盘中，你应该在其他位置有他们的拷贝。</li>
-<li>请尽量在文件夹选项中勾选“查看已知类型文件的扩展名”，这样你看到的病毒伪装文件夹都有.exe后缀。</li>
-<li>看仔细。图标都不一样好嘛…</li>
-<li>多留意。往往点击病毒文件夹后，会在新窗口打开你想要的文件夹。这时你就得警觉了。</li>
-<li>注意版权/知识产权。丑恶的学校打印店可能会未经许可复制你的U盘文档，所以尽量不要在打印店打印课件等不便或不能公开的文档。</li>
-</ol>
+<p>个人隐私绝非儿戏，若人人漠视，芸芸网民将任由权力与资本鱼肉；重视个人隐私，保护自身的同时也是为健康的互联网环境献微薄之力。</p>
 
     </div>
 
@@ -207,7 +194,7 @@ attrib -r -h -s /s /d
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://techseu.github.io/udisk-virus/>https://techseu.github.io/udisk-virus/</span>
+                    <a href=https://techseu.github.io/privacy/>https://techseu.github.io/privacy/</span>
             </p>
             
              
@@ -223,8 +210,8 @@ attrib -r -h -s /s /d
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://techseu.github.io/tags/usb/">
-                    #USB</a></span>
+            <span class="tag"><a href="https://techseu.github.io/tags/privacy/">
+                    #privacy</a></span>
             
             </section>
         
@@ -236,10 +223,8 @@ attrib -r -h -s /s /d
 
     <div class="post-nav">
         
-        <a href="https://techseu.github.io/network-issues/" class="prev" rel="prev" title="常见网络问题"><i class="iconfont icon-left"></i>&nbsp;常见网络问题</a>
+        <a href="https://techseu.github.io/udisk-virus/" class="prev" rel="prev" title="关于U盘病毒"><i class="iconfont icon-left"></i>&nbsp;关于U盘病毒</a>
          
-        
-        <a href="https://techseu.github.io/privacy/" class="next" rel="next" title="聊聊隐私　">聊聊隐私　&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -249,7 +234,7 @@ attrib -r -h -s /s /d
     </div>
     
     <div class="post-comment">
-        <span id="/udisk-virus/" class="leancloud_visitors" data-flag-title="关于U盘病毒">
+        <span id="/privacy/" class="leancloud_visitors" data-flag-title="聊聊隐私　">
           <span class="post-meta-item-text">文章阅读量 </span>
           <span class="leancloud-visitors-count">1000000</span>
           <p></p>
@@ -303,8 +288,9 @@ attrib -r -h -s /s /d
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

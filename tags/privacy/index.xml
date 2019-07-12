@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>privacy on Tech SEU</title>
+    <link>https://techseu.github.io/tags/privacy/</link>
+    <description>Recent content in privacy on Tech SEU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 12 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://techseu.github.io/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>聊聊隐私　</title>
+      <link>https://techseu.github.io/privacy/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://techseu.github.io/privacy/</guid>
+      <description>在互联网上，没人知道你是一条狗
+ 
+这是一句互联网上的常用语，它因《纽约客》1993年7月5日刊登的一则由彼得·施泰纳（Peter Steiner）创作的漫画标题而变得流行。这则漫画中有两条狗：一条坐在计算机前的一张椅子上，与坐在地板上的另一条狗说出了漫画的标题：“在互联网上，没人知道你是一条狗”。
+时至2000年，这一漫画是《纽约客》中被重印最多的一则漫画。这则漫画一开始没有吸引太多的注意，但后来却有了它自己的“生命”。这则漫画体现了一种对互联网的理解，强调用户能够以一种不透露个人信息的方式来发送或接受信息的能力。
+互联网的匿名性给了我们自由，也产生了许多负面的社会影响，隐私泄露即为其一。本文将给出一些资料引起读者对个人隐私的重视，并给出一些保护自己的建议。
+推荐这个GitHUb仓库：Digital-Privacy - 一个关于数字隐私搜集、保护、清理集一体的方案 
+该仓库集合了*平台管控设置、邮箱/信息/号码、查隐秘性、定位、保护手段*等资源，值得一看。
+推荐这几篇文章：
+隐私大爆炸 - 你得学几招保护自己
+用户隐私早沦陷了
+浅谈互联网隐私安全
+个人隐私绝非儿戏，若人人漠视，芸芸网民将任由权力与资本鱼肉；重视个人隐私，保护自身的同时也是为健康的互联网环境献微薄之力。</description>
+    </item>
+    
+  </channel>
+</rss>
